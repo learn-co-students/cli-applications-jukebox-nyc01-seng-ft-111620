@@ -64,7 +64,7 @@ def play(songs)
       puts "Playing Harry Chapin - Cats in the Cradle"
     elsif input == "9"
       pre_input = input
-      puts "Amos Lee - Keep It Loose, Keep It Tight"
+      puts "Playing Amos Lee - Keep It Loose, Keep It Tight"
     elsif songs.each do |song| 
       if input == song
         pre_input = input
